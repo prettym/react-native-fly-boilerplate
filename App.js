@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 import auth from '@react-native-firebase/auth';
 import SplashScreen from 'react-native-splash-screen';
+import Icon from 'react-native-vector-icons/Feather';
 
 export default class App extends React.Component {
 
@@ -31,6 +32,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>RNFlyBoilerplate</Text>
+        <Icon name="github" size={80} color="black" style={{ marginTop: 24 }} />
       </View>
     );
   }
