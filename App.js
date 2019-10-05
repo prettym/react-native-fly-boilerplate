@@ -5,6 +5,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import auth from '@react-native-firebase/auth';
+import SplashScreen from 'react-native-splash-screen';
 
 export default class App extends React.Component {
 
@@ -21,6 +22,10 @@ export default class App extends React.Component {
           break;
       }
     }
+
+    // do stuff while splash screen is shown
+    // After having done stuff (such as async tasks) hide the splash screen
+    SplashScreen.hide();
   }
   render() {
     return (
