@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "915924439586",
+    "firebase_url": "https://rnflyboilerplate.firebaseio.com",
+    "project_id": "rnflyboilerplate",
+    "storage_bucket": "rnflyboilerplate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915924439586:android:569d8c78bbb6d04068b07b",
+        "android_client_info": {
+          "package_name": "com.rnflyboilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915924439586-odoic4kpule50mp2tr5a69ia333c7rib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs-vMe5mTmyVyJW8MdXRgn_fDdthKPvXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915924439586-odoic4kpule50mp2tr5a69ia333c7rib.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "915924439586-arslmdvjq9033o548p97m43l6961kh4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "RNFlyBoilerplate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
