@@ -4,7 +4,7 @@
 이 boilerplate는 아래 package module들을 포함하고 있습니다.
 - react (16.9.0)
 - react-native (0.61.5) (ejected 모드 적용)
-- @react-native-firebase/app (6.0.0)
-- @react-native-firebase/auth (6.0.0)
+- @react-native-firebase/app (6.2.0)
+- @react-native-firebase/auth (6.2.0)
 - react-native-splash-screen (3.2.0)
 - react-native-vector-icons (6.6.0)
