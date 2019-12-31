@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>RNFlyBoilerplate</string>
+	<string>org.reactjs.native.example.RNFlyBoilerplate</string>
 	<key>PROJECT_ID</key>
 	<string>rnflyboilerplate</string>
 	<key>STORAGE_BUCKET</key>
