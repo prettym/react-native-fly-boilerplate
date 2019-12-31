@@ -1,10 +1,34 @@
-이 프로젝트는 모바일 애플리케이션 개발을 시작하는데 사용할 수 있는 React Native 기반의 boilerplate 입니다. 이 boilerplate는 UI와 비즈니스 로직을 각각 분리하고, 견고한 cross-platform 모바일 애플리케이션을 개발하기 위한 최적화된 아키텍처를 제공하는 것이 목적입니다. 프로젝트에 포함된 각 코드들을 이해하고, 사용하는 것을 도울 수 있도록 이 문서는 지속적으로 업데이트 될 것입니다.
+# react-native-fly-boilerplate
+This project is a [React Native](https://facebook.github.io/react-native/) based boilerplate that can be used to start developing mobile applications.
 
-## Content
-이 boilerplate는 아래 package module들을 포함하고 있습니다.
-- react (16.9.0)
-- react-native (0.61.5) (ejected 모드 적용)
-- @react-native-firebase/app (6.2.0)
-- @react-native-firebase/auth (6.2.0)
-- react-native-splash-screen (3.2.0)
-- react-native-vector-icons (6.6.0)
+## Included
+- [react](https://github.com/facebook/react) (16.9.0)
+- [react-native](https://github.com/facebook/react-native) (0.61.5) (ejected mode)
+- [@react-native-firebase/app](https://github.com/invertase/react-native-firebase) (6.2.0)
+- [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen) (3.2.0)
+- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) (6.6.0)
+
+## Changelog
+All notable changes to this project will be documented in this file.
+
+### [Unreleased]
+
+### [0.0.2] 2019/12/31
+#### Added
+- Set react-native-firebase for Android
+- Set react-native-splash-screen for Android
+- Set react-native-vector-icons for Android
+#### Changed
+- Upgrade react-native to 0.61.5
+- Upgrade react-native-firebase to 6.2.0
+- Upgrade gradle of android project to 3.5.3
+- Upgrade GMS Module for Firebase to 4.3.3
+- Change bundle identifier to initial value of iOS project
+
+### [0.0.1] 2019/10/5
+#### Added
+- Create a project and configure defaults
+- Add react-native-firebase and set default for iOS only
+- Add react-native-splash-screen and set default for iOS only
+- Add react-native-vector-icons and set default for iOS only
+- Create initial README.md
