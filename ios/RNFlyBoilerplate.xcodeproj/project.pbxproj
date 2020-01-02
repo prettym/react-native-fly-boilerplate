@@ -60,6 +60,7 @@
 		4B95EA195D9B10821200A51D /* Pods-RNFlyBoilerplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFlyBoilerplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNFlyBoilerplate-tvOSTests/Pods-RNFlyBoilerplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C088C8BF8E040E5D667850C /* Pods-RNFlyBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFlyBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNFlyBoilerplateTests/Pods-RNFlyBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE203F7F843BC26221FCA14 /* Pods-RNFlyBoilerplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFlyBoilerplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNFlyBoilerplate-tvOSTests/Pods-RNFlyBoilerplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		753CD76323BE67E4004C495A /* RNFlyBoilerplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNFlyBoilerplate.entitlements; path = RNFlyBoilerplate/RNFlyBoilerplate.entitlements; sourceTree = "<group>"; };
 		759ABCFF234865E90093AC1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7BDD037D3D88CFCDB5D7E633 /* Pods-RNFlyBoilerplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFlyBoilerplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNFlyBoilerplate-tvOS/Pods-RNFlyBoilerplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9C2DAEA3EB58F87B23CEAC7E /* Pods-RNFlyBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFlyBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-RNFlyBoilerplate/Pods-RNFlyBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		13B07FAE1A68108700A75B9A /* RNFlyBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				753CD76323BE67E4004C495A /* RNFlyBoilerplate.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -696,6 +698,7 @@
 			baseConfigurationReference = 9C2DAEA3EB58F87B23CEAC7E /* Pods-RNFlyBoilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RNFlyBoilerplate/RNFlyBoilerplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 75TLP8N2ER;
@@ -717,6 +720,7 @@
 			baseConfigurationReference = B5ED3D489C8A0DAE404F7DDD /* Pods-RNFlyBoilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RNFlyBoilerplate/RNFlyBoilerplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75TLP8N2ER;
 				INFOPLIST_FILE = RNFlyBoilerplate/Info.plist;
