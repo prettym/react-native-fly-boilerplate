@@ -1,15 +1,14 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-} from 'react-native';
 import auth from '@react-native-firebase/auth';
 import messaging from '@react-native-firebase/messaging';
 import PushNotificationIOS from '@react-native-community/push-notification-ios';
 import SplashScreen from 'react-native-splash-screen';
-import Icon from 'react-native-vector-icons/Feather';
 import 'react-native-gesture-handler';
+import { createAppContainer } from 'react-navigation';
+
+import StackNavigator from './navigators/StackNavigator';
+
+const AppContainer = createAppContainer(StackNavigator);
 
 // FCM token request count
 // If the number of requests exceeds 10, the operation will be aborted.
@@ -48,12 +47,10 @@ export default class App extends React.Component {
     const fcmToken = await this.getFcmToken();
     console.debug('fcmToken', fcmToken);
   }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text>RNFlyBoilerplate</Text>
-        <Icon name="github" size={80} color="black" style={{ marginTop: 24 }} />
-      </View>
+      <AppContainer />
     );
   }
 
@@ -81,11 +78,3 @@ export default class App extends React.Component {
     return new Promise(resolve => setTimeout(resolve, ms));
   };
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
