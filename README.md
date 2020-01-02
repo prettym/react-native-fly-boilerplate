@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file.
 #### Added
 - Implement push notifications and get fcm token
 - Implement the basic example of stack navigation
+#### Changed
+- Set device orientation to portrait only
 
 ### [0.0.2] 2019/12/31
 #### Added
