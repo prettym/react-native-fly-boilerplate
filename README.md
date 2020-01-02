@@ -6,11 +6,13 @@ This project is a [React Native](https://facebook.github.io/react-native/) based
 - [react-native](https://github.com/facebook/react-native) (0.61.5) (ejected mode)
 - [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen) (3.2.0)
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) (6.6.0)
+- [react-native-webview](https://github.com/react-native-community/react-native-webview) (8.0.2)
 - [react-navigation](https://github.com/react-navigation/react-navigation) (4.0.10)
 - [react-navigation-stack](https://github.com/react-navigation/stack) (2.0.2)
 - [@react-native-firebase/app](https://github.com/invertase/react-native-firebase/tree/master/packages/app) (6.2.0)
 - [@react-native-firebase/auth](https://github.com/invertase/react-native-firebase/tree/master/packages/auth) (6.2.0)
 - [@react-native-firebase/messaging](https://github.com/invertase/react-native-firebase/tree/master/packages/messaging) (6.2.0)
+- [@react-native-community/async-storage](https://github.com/react-native-community/async-storage) (1.7.1)
 - [@react-native-community/push-notification-ios](https://github.com/react-native-community/react-native-push-notification-ios) (1.0.3)
 
 ## Changelog
