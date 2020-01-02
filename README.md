@@ -18,8 +18,6 @@ This project is a [React Native](https://facebook.github.io/react-native/) based
 ## Changelog
 All notable changes to this project will be documented in this file.
 
-### [Unreleased]
-
 ### [0.0.3] 2020/1/3
 #### Added
 - Implement push notifications and get fcm token
@@ -28,16 +26,14 @@ All notable changes to this project will be documented in this file.
 - Set device orientation to portrait only
 
 ### [0.0.2] 2019/12/31
-#### Added
-- Set react-native-firebase for Android
-- Set react-native-splash-screen for Android
-- Set react-native-vector-icons for Android
 #### Changed
 - Upgrade react-native to 0.61.5
 - Upgrade react-native-firebase to 6.2.0
 - Upgrade gradle of android project to 3.5.3
 - Upgrade GMS Module for Firebase to 4.3.3
-- Change bundle identifier to initial value of iOS project
+- Set react-native-firebase for Android
+- Set react-native-splash-screen for Android
+- Set react-native-vector-icons for Android
 
 ### [0.0.1] 2019/10/5
 #### Added
