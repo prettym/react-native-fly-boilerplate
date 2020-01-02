@@ -9,6 +9,7 @@ import messaging from '@react-native-firebase/messaging';
 import PushNotificationIOS from '@react-native-community/push-notification-ios';
 import SplashScreen from 'react-native-splash-screen';
 import Icon from 'react-native-vector-icons/Feather';
+import 'react-native-gesture-handler';
 
 // FCM token request count
 // If the number of requests exceeds 10, the operation will be aborted.
