@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>915924439586-arslmdvjq9033o548p97m43l6961kh4v.apps.googleusercontent.com</string>
+	<string>470109934584-ik3do6eluu13vvem025sor8qt3a0lju2.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.915924439586-arslmdvjq9033o548p97m43l6961kh4v</string>
+	<string>com.googleusercontent.apps.470109934584-ik3do6eluu13vvem025sor8qt3a0lju2</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD_49sEyMDzUuKaGfVzwGHsaU5omiZcLhI</string>
+	<string>AIzaSyA6EOx6LgEMPIWwk60unvu7g9BOrJDBNdU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>915924439586</string>
+	<string>470109934584</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.RNFlyBoilerplate</string>
+	<string>com.rnflyboilerplate</string>
 	<key>PROJECT_ID</key>
-	<string>rnflyboilerplate</string>
+	<string>rnflyboilerplate-ed84b</string>
 	<key>STORAGE_BUCKET</key>
-	<string>rnflyboilerplate.appspot.com</string>
+	<string>rnflyboilerplate-ed84b.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:915924439586:ios:86a75cdc33dec0ea68b07b</string>
+	<string>1:470109934584:ios:46698a4ad6e1c8cde6fc0d</string>
 	<key>DATABASE_URL</key>
-	<string>https://rnflyboilerplate.firebaseio.com</string>
+	<string>https://rnflyboilerplate-ed84b.firebaseio.com</string>
 </dict>
 </plist>
